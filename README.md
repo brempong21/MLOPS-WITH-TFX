@@ -35,6 +35,8 @@ The repository includes scripts and notebooks for:
    ```
 
 4. **Explore the Code**: Explore the scripts and notebooks available in the repository to understand different ML operations and workflows.
+## TensorBoard Server
+To visualize the training progress and model metrics, you can set up a TensorBoard server by running every cell in the .ipynb and enter 'http://localhost:6006' in your browser
 
 ## Contributions
 
