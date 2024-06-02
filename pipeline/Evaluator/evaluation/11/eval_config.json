@@ -1,0 +1,57 @@
+{
+  "evalConfig": {
+    "modelSpecs": [
+      {
+        "name": "candidate",
+        "signatureName": "serving_default",
+        "labelKey": "Strength"
+      },
+      {
+        "name": "baseline",
+        "signatureName": "serving_default",
+        "labelKey": "Strength",
+        "isBaseline": true
+      }
+    ],
+    "slicingSpecs": [
+      {},
+      {
+        "featureKeys": [
+          "Age"
+        ]
+      }
+    ],
+    "metricsSpecs": [
+      {
+        "metrics": [
+          {
+            "className": "ExampleCount"
+          },
+          {
+            "className": "MeanSquaredError",
+            "threshold": {
+              "valueThreshold": {
+                "lowerBound": 0.5
+              },
+              "changeThreshold": {
+                "absolute": -1e-10,
+                "direction": "HIGHER_IS_BETTER"
+              }
+            }
+          }
+        ],
+        "modelNames": [
+          "candidate",
+          "baseline"
+        ]
+      }
+    ]
+  },
+  "version": "0.46.0",
+  "dataLocation": "<user provided PCollection>",
+  "fileFormat": "<unknown>",
+  "modelLocations": {
+    "baseline": "./pipeline/Trainer/model/6/Format-Serving",
+    "candidate": "./pipeline/Trainer/model/10/Format-Serving"
+  }
+}

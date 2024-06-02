@@ -1,0 +1,44 @@
+{
+  "evalConfig": {
+    "modelSpecs": [
+      {
+        "signatureName": "serving_default",
+        "labelKey": "Strength"
+      }
+    ],
+    "slicingSpecs": [
+      {},
+      {
+        "featureKeys": [
+          "Age"
+        ]
+      }
+    ],
+    "metricsSpecs": [
+      {
+        "metrics": [
+          {
+            "className": "ExampleCount"
+          },
+          {
+            "className": "MeanSquaredError",
+            "threshold": {
+              "valueThreshold": {
+                "lowerBound": 0.5
+              }
+            }
+          }
+        ],
+        "modelNames": [
+          ""
+        ]
+      }
+    ]
+  },
+  "version": "0.46.0",
+  "dataLocation": "<user provided PCollection>",
+  "fileFormat": "<unknown>",
+  "modelLocations": {
+    "": "./pipeline/Trainer/model/6/Format-Serving"
+  }
+}

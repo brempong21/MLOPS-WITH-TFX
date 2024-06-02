@@ -1,0 +1,81 @@
+feature {
+  name: "Age_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "Blast Furnace Slag_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "Cement_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "Coarse Aggregate_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "Fine Aggregate_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "Fly Ash_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "Strength_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "Superplasticizer_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "Water_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}

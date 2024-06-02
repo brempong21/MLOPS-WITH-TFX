@@ -1,0 +1,13 @@
+prefix=/home/kali/cocrete/.conda
+exec_prefix=/home/kali/cocrete/.conda
+libdir=/home/kali/cocrete/.conda/lib
+sharedlibdir=/home/kali/cocrete/.conda/lib
+includedir=/home/kali/cocrete/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
