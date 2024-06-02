@@ -1,14 +1,12 @@
 # MLOPS-WITH-TFX
 
-# MLOPS-WITH-TFX
-
 ## Overview
 
 This repository contains code for building pipelines with TensorFlow Extended (TFX) components. The pipelines are designed for various machine learning (ML) operations, such as data preprocessing, model training, evaluation, and deployment.
 
 ## Usage
 
-To access the code, please checkout the `master` branch of this repository.
+To access the code, please check out the `master` branch of this repository.
 
 ## Contents
 
